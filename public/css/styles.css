@@ -3,6 +3,11 @@
     padding-top: 70px;
     padding-bottom: 70px;
 }
+.font{
+ font-size:xx-large;
+    font-family: cursive;
+    font-style: italic;
+}
 .navbar {
  
     padding-top: 15px;
