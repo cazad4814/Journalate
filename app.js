@@ -20,6 +20,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 mongoose.connect("mongodb+srv://admin-chandan:hindustan@@@cluster0.nebmg.mongodb.net/DAILY_JOURNAL",{useNewUrlParser:true, useUnifiedTopology: true});
 const itemsSchema={
+  
   title:String,
   content:String
 }
